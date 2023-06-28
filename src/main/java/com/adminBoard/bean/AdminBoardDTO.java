@@ -26,7 +26,7 @@ public class AdminBoardDTO {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "ADMINBOARD_SEQ_GENERATOR")
 	@Column(name = "adminBoardSeq")
-	private int adminBoardSeq;
+	private int adminBoardSeq; 
 	
 	@Column(name = "title") // 게시판 글 제목
 	private String title;
